@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "./models/pytorch/all-MiniLM-L6-v2",
+  "_name_or_path": "sentence-transformers/all-MiniLM-L6-v2",
   "architectures": [
     "BertModel"
   ],
@@ -18,7 +18,7 @@
   "num_hidden_layers": 6,
   "pad_token_id": 0,
   "position_embedding_type": "absolute",
-  "transformers_version": "4.26.1",
+  "transformers_version": "4.29.2",
   "type_vocab_size": 2,
   "use_cache": true,
   "vocab_size": 30522

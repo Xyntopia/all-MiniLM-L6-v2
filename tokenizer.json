@@ -19,48 +19,48 @@
   "added_tokens": [
     {
       "id": 0,
-      "special": true,
       "content": "[PAD]",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
-      "normalized": false
+      "normalized": false,
+      "special": true
     },
     {
       "id": 100,
-      "special": true,
       "content": "[UNK]",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
-      "normalized": false
+      "normalized": false,
+      "special": true
     },
     {
       "id": 101,
-      "special": true,
       "content": "[CLS]",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
-      "normalized": false
+      "normalized": false,
+      "special": true
     },
     {
       "id": 102,
-      "special": true,
       "content": "[SEP]",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
-      "normalized": false
+      "normalized": false,
+      "special": true
     },
     {
       "id": 103,
-      "special": true,
       "content": "[MASK]",
       "single_word": false,
       "lstrip": false,
       "rstrip": false,
-      "normalized": false
+      "normalized": false,
+      "special": true
     }
   ],
   "normalizer": {
