@@ -11,7 +11,7 @@ If you haven't already, you can install the [Transformers.js](https://huggingfac
 npm i @xenova/transformers
 ```
 
-You can then use the model for computing embeddings like this:
+You can then use the model to compute embeddings like this:
 
 ```js
 import { pipeline } from '@xenova/transformers';
