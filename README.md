@@ -7,15 +7,15 @@ https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2 with ONNX weights 
 
 ## Usage (Transformers.js)
 
-If you haven't already, you can install the [Transformers.js](https://huggingface.co/docs/transformers.js) JavaScript library from [NPM](https://www.npmjs.com/package/@xenova/transformers) using:
+If you haven't already, you can install the [Transformers.js](https://huggingface.co/docs/transformers.js) JavaScript library from [NPM](https://www.npmjs.com/package/@huggingface/transformers) using:
 ```bash
-npm i @xenova/transformers
+npm i @huggingface/transformers
 ```
 
 You can then use the model to compute embeddings like this:
 
 ```js
-import { pipeline } from '@xenova/transformers';
+import { pipeline } from '@huggingface/transformers';
 
 // Create a feature-extraction pipeline
 const extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
