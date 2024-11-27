@@ -1,6 +1,7 @@
 ---
 base_model: sentence-transformers/all-MiniLM-L6-v2
 library_name: transformers.js
+license: apache-2.0
 ---
 
 https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2 with ONNX weights to be compatible with Transformers.js.
